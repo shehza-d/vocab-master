@@ -1,0 +1,5 @@
+remove this file
+
+add footer with c
+add quran academy 
+add route for all words

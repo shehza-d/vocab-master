@@ -3,4 +3,5 @@ export interface IWord {
   arabic: string;
   english?: string;
   urdu: string;
+  exerciseNumber?: number;
 }
