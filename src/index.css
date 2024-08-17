@@ -1,68 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --primary-color: #34fc66;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/* @layer utilities {
+  * {
+    @apply selection:bg-primary selection:text-black;
+  }
+  .spacing-x {
+    @apply mx-6 mm:mx-10 md:mx-16 lg:mx-20 xl:mx-28;
+  }
+  .gradient {
+    @apply to-primary bg-gradient-to-r from-blue-300 via-green-500 bg-clip-text text-transparent;
+  }
+  .S_Underline {
+    @apply after:absolute after:-bottom-1 after:left-0 after:h-[0.1875rem] after:w-0 after:bg-slate-800 after:transition-all after:duration-500 after:content-[''];
+  }
+} */
 
-body {
-  margin: 0;
+.center {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* remove */
+.bdr {
+  border: 2px solid red;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.bdr2 {
+  border: 2px solid green;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.bdr3 {
+  border: 2px solid blue;
 }
