@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "format": "npx prettier --write .",
-    "deploy": "surge ./build --domain vocab-master.surge.sh",
+    "deploy": "surge ./dist --domain vocab-master.surge.sh",
     "lint": "eslint .",
     "preview": "vite preview"
   },

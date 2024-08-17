@@ -1,8 +1,10 @@
+import Arabic from "./components/Arabic";
+
 function App() {
   return (
-    <>
-      <h1 className="fdf text-5xl text-red-700">Shehzad</h1>
-    </>
+    <div className="app-container center">
+      <Arabic />{" "}
+    </div>
   );
 }
 
