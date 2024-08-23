@@ -1,58 +1,138 @@
 import { IWord } from "../types";
 
+// مونّث
 export const words: IWord[] = [
   {
     exerciseNumber: 1,
-    id: 32,
+    id: 31,
     arabic: "سَمَآءٌ",
     urdu: "آسمان",
     english: "sky",
   },
   {
     exerciseNumber: 1,
-    id: 32,
+    id: 33,
     arabic: "سُوْءٌ",
     urdu: "برائ",
     english: "Evil",
   },
   {
     exerciseNumber: 1,
-    id: 32,
+    id: 34,
     arabic: "شَيْئًا",
     urdu: "چیز",
     english: "Thing",
   },
   {
     exerciseNumber: 1,
-    id: 32,
+    id: 35,
     arabic: "بِنْتٌ",
     urdu: "لڑکی",
     english: "female",
   },
   {
     exerciseNumber: 1,
-    id: 32,
+    id: 36,
     arabic: "جَنَّةٌ",
     urdu: "باغ",
     english: "Garden",
   },
   {
     exerciseNumber: 1,
-    id: 32,
+    id: 37,
     arabic: "شَيْءٌ",
     urdu: "چیز",
     english: "Thing",
   },
   //
-  { id: 32, arabic: "اَسْوَدُ", urdu: "سياه", english: "black" },
-  { id: 32, arabic: " اَحْمَرُ", urdu: "سرخ", english: "red" },
-  //
-  { id: 32, arabic: "هٰذَا", urdu: "یہ (مذکّر)", english: "this" },
-  { id: 32, arabic: "اَلَّذِىْ", urdu: "جوکہ (مذکّر)", english: "?" },
-  { id: 32, arabic: "تِلْكَ", urdu: "وه (مونّث)", english: "that" },
-  //
-  // { id: 32, arabic: "", urdu: "", english: "" },
+  { id: 38, arabic: "اَسْوَدُ", urdu: "سياه", english: "black" },
+  { id: 39, arabic: " اَحْمَرُ", urdu: "سرخ", english: "red" },
+  // isme shara page 21
+  { id: 40, arabic: "اَلَّذِىْ", urdu: "جوکہ (مذکّر)", english: "?" },
+  {
+    id: 41,
+    arabic: "هٰذَا",
+    urdu: "یہ ايک (مذکّر)",
+    english: "this",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 42,
+    arabic: "هٰذَانِ",
+    urdu: "یہ دو (مذکّر)",
+    english: "these two",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 43,
+    arabic: "هٰؤُلَٱءِ",
+    urdu: "یہ سب",
+    english: "all these",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 44,
+    arabic: "هٰذَهِ",
+    urdu: "یہ ايک (مونّث)",
+    english: "this",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 45,
+    arabic: "هٰاتَانِ",
+    urdu: "یہ دو (مونّث)",
+    english: "these two",
+    detail: "اشارہ قریب",
+  },
 
+  {
+    id: 46,
+    arabic: "ذٰلِكَ",
+    urdu: "وه ايک (مذکّر)",
+    english: "that",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 47,
+    arabic: "ذٰنِكَ",
+    urdu: "وه دو (مذکّر)",
+    english: "those",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 48,
+    arabic: "اُولٰئِكَ",
+    urdu: "وه سب",
+    english: "those",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 49,
+    arabic: "تِلْكَ",
+    urdu: "وه ايک (مونّث)",
+    english: "those",
+    detail: "اشارہ قریب",
+  },
+  {
+    id: 50,
+    arabic: "تَانِكَ",
+    urdu: "وه دو (مونّث)",
+    english: "those",
+    detail: "اشارہ قریب",
+  },
+
+  //
+  {
+    id: 51,
+    arabic: "اُولٰئِكَ",
+    urdu: "وه سب",
+    english: "they",
+    detail: "اشارہ بعید",
+  },
+  //
+  // { id: 0, arabic: "", urdu: "", english: "" },
+
+  //
   // below are from chatgpt
   { id: 1, arabic: "ٱلْكِتَـٰبِ", urdu: "کتاب", english: "Book" },
   { id: 2, arabic: "قلم", urdu: "قلم", english: "Pen" },
