@@ -1,0 +1,37 @@
+name: Deploy to Surge
+
+on:
+  push:
+    branches:
+      - main  # Replace 'main' with your default branch if different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20' # Use the Node.js version your project requires
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Build the project (if applicable)
+      - name: Build project
+        run: npm run build # Replace with your build command if different
+
+      # Deploy to Surge
+      - name: Deploy to Surge
+        env:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+        run: |
+          npm install --global surge
+          npm run deploy
