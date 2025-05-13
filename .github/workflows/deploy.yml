@@ -3,7 +3,7 @@ name: Deploy to Surge
 on:
   push:
     branches:
-      - main  # Replace 'main' with your default branch if different
+      - main # Replace 'main' with your default branch if different
 
 jobs:
   deploy:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # Use the Node.js version your project requires
+          node-version: "20" # Use the Node.js version your project requires
 
       # Install dependencies
       - name: Install dependencies
