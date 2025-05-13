@@ -145,7 +145,6 @@ export const words: IWord[] = [
     english: "colors",
     exerciseNumber: 2,
   },
-  { id: 0, arabic: "اٰيَةٌ", urdu: "نشانی", english: "", exerciseNumber: 2 },
   { id: 0, arabic: "ثَمَرٌ", urdu: "پھل", english: "fruit", exerciseNumber: 2 },
   {
     id: 0,
