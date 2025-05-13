@@ -1,11 +1,9 @@
 import Arabic from "./components/Arabic";
 
-function App() {
+export default function App() {
   return (
-    <div className="app-container center">
-      <Arabic />{" "}
+    <div className="center">
+      <Arabic />
     </div>
   );
 }
-
-export default App;

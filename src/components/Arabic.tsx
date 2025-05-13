@@ -28,8 +28,6 @@ export default function Arabic() {
       >
         Next
       </button>
-  
-  testing deploy 1
     </div>
   );
 }
