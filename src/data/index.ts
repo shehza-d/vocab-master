@@ -45,10 +45,134 @@ export const words: IWord[] = [
     english: "Thing",
   },
   //
-  { id: 38, arabic: "اَسْوَدُ", urdu: "سياه", english: "black" },
-  { id: 39, arabic: " اَحْمَرُ", urdu: "سرخ", english: "red" },
+  {
+    id: 0,
+    arabic: "طَيِّبٌ",
+    urdu: "اچھا",
+    english: "Good",
+    exerciseNumber: 1,
+  },
+  { id: 0, arabic: "رَجُلٌ", urdu: "مرد", english: "men", exerciseNumber: 1 },
+  {
+    id: 0,
+    arabic: "ضَرْبٌ",
+    urdu: "مارنا",
+    english: "fight",
+    exerciseNumber: 1,
+  },
+  {
+    id: 0,
+    arabic: "ذَه‍َبَ",
+    urdu: "وه گیا",
+    english: "he went",
+    exerciseNumber: 1,
+  },
+  {
+    id: 0,
+    arabic: "يَشْرَبُ",
+    urdu: "وہ پیتا ہے یا پیے گا",
+    english: "drink",
+    exerciseNumber: 1,
+  },
+  { id: 0, arabic: "فَرَسِ", urdu: "گھوڑے", english: "", exerciseNumber: 1 },
+  { id: 0, arabic: "اٰيَةٌ", urdu: "نشانی", english: "", exerciseNumber: 1 },
+  //
+  {
+    id: 38,
+    arabic: "اَسْوَدُ",
+    urdu: "سياه",
+    english: "black",
+    exerciseNumber: 2,
+  },
+  {
+    id: 39,
+    arabic: " اَحْمَرُ",
+    urdu: "سرخ",
+    english: "red",
+    exerciseNumber: 2,
+  },
+
+  //
+  { id: 0, arabic: "نَفْسٌ", urdu: "جان", english: "life", exerciseNumber: 2 },
+  {
+    id: 0,
+    arabic: "رِجْزٌ",
+    urdu: "گندگی - آفت",
+    english: "a curse",
+    exerciseNumber: 2,
+  },
+  {
+    id: 0,
+    arabic: "هٰؤُلَاءِ (م)",
+    urdu: "یہ لوگ",
+    english: "these",
+    exerciseNumber: 2,
+  },
+  {
+    id: 0,
+    arabic: "سَيِّئَةٌ",
+    urdu: "برائی",
+    english: "bad",
+    exerciseNumber: 2,
+  },
+  {
+    id: 0,
+    arabic: "جِدَارٌ",
+    urdu: "دیوار",
+    english: "wall",
+    exerciseNumber: 2,
+  },
+  { id: 0, arabic: "شَمْسٌ", urdu: "سورج", english: "sun", exerciseNumber: 2 },
+  { id: 0, arabic: "مَاءٌ", urdu: "پانی", english: "water", exerciseNumber: 2 },
+  {
+    id: 0,
+    arabic: "مَدِيْنَةٌ",
+    urdu: "شہر",
+    english: "city",
+    exerciseNumber: 2,
+  },
+  {
+    id: 0,
+    arabic: "بَابٌ",
+    urdu: "دروازه",
+    english: "door",
+    exerciseNumber: 2,
+  },
+  {
+    id: 0,
+    arabic: "صِبْغَةٌ",
+    urdu: "رنگ",
+    english: "colors",
+    exerciseNumber: 2,
+  },
+  { id: 0, arabic: "اٰيَةٌ", urdu: "نشانی", english: "", exerciseNumber: 2 },
+  { id: 0, arabic: "ثَمَرٌ", urdu: "پھل", english: "fruit", exerciseNumber: 2 },
+  {
+    id: 0,
+    arabic: "شَهْوَةٌ",
+    urdu: "خواہش",
+    english: "desire",
+    exerciseNumber: 2,
+  },
+  {
+    id: 0,
+    arabic: "خِزْىٌ",
+    urdu: "رسوائی",
+    english: "shame",
+    exerciseNumber: 2,
+  },
+  // { id: 0, arabic: "", urdu: "", english: "" ,exerciseNumber:2},
+
+  //
   // isme shara page 21
   { id: 40, arabic: "اَلَّذِىْ", urdu: "جوکہ (مذکّر)", english: "?" },
+  {
+    id: 0,
+    arabic: "اَلَّتِىْ (م)",
+    urdu: "جو کہ ( مؤنث )",
+    english: "that",
+    exerciseNumber: 2,
+  },
   {
     id: 41,
     arabic: "هٰذَا",
@@ -106,6 +230,14 @@ export const words: IWord[] = [
     english: "those",
     detail: "اشارہ قریب",
   },
+  //
+  {
+    id: 51,
+    arabic: "اُولٰئِكَ",
+    urdu: "وه سب",
+    english: "they",
+    detail: "اشارہ بعید",
+  },
   {
     id: 49,
     arabic: "تِلْكَ",
@@ -122,15 +254,18 @@ export const words: IWord[] = [
   },
 
   //
+
+  // { id: 0, arabic: "", urdu: "", english: "" ,exerciseNumber:1},
+
+  // ishara
+  { id: 0, arabic: "عَلٰى", urdu: "پر", english: "", exerciseNumber: 10 },
   {
-    id: 51,
-    arabic: "اُولٰئِكَ",
-    urdu: "وه سب",
-    english: "they",
-    detail: "اشارہ بعید",
+    id: 0,
+    arabic: "اِلٰى",
+    urdu: "تک یا کی طرف",
+    english: "",
+    exerciseNumber: 10,
   },
-  //
-  // { id: 0, arabic: "", urdu: "", english: "" },
 
   //
   // below are from chatgpt
@@ -145,7 +280,7 @@ export const words: IWord[] = [
   { id: 10, arabic: "مكتبة", urdu: "کتب خانہ", english: "Library" },
   { id: 11, arabic: "مستشفى", urdu: "ہسپتال", english: "Hospital" },
   // { id: 12, arabic: "مطعم", urdu: "ریستوراں", english: "Restaurant" },
-  { id: 13, arabic: "مسجد", urdu: "مسجد", english: "Mosque" },
+  // { id: 13, arabic: "مسجد", urdu: "مسجد", english: "Mosque" },
   { id: 15, arabic: "جامعة", urdu: "یونیورسٹی", english: "University" },
   { id: 16, arabic: "محل", urdu: "دکان", english: "Shop" },
   // { id: 18, arabic: "مطعم", urdu: "ریستوراں", english: "Restaurant" },
