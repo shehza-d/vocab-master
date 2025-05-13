@@ -1,11 +1,11 @@
 import Arabic from "./components/Arabic";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="app-container center">
-      <Arabic />{" "}
+    <div className="center h-[100dvh]">
+      <Arabic />
+      <Footer />
     </div>
   );
 }
-
-export default App;
