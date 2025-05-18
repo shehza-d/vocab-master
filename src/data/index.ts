@@ -1,7 +1,11 @@
 import { IWord } from "../types";
+import { exercise3 } from "./exercise3";
+import { exercise4And5 } from "./exercise4-5";
 
 // مونّث
 export const words: IWord[] = [
+  ...exercise3,
+  ...exercise4And5,
   {
     exerciseNumber: 1,
     id: 31,
@@ -48,7 +52,7 @@ export const words: IWord[] = [
   {
     id: 0,
     arabic: "طَيِّبٌ",
-    urdu: "اچھا",
+    urdu: "اچھا, پاک",
     english: "Good",
     exerciseNumber: 1,
   },
